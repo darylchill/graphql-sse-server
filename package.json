@@ -1,0 +1,29 @@
+{
+  "name": "realtime-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "xx.js",
+  "scripts": {
+    "server": "bun run --watch src/graph-server.ts",
+    "client": "node --experimental-eventsource --watch src/graph-client-cli.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "private": true,
+  "devDependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@graphql-yoga/plugin-graphql-sse": "^3.13.5",
+    "graphql": "^16.10.0",
+    "graphql-request": "^7.1.2",
+    "graphql-yoga": "^5.13.4",
+    "mongodb": "^6.18.0"
+  }
+}
