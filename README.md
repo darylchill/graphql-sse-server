@@ -2,6 +2,11 @@
 
 A TypeScript server designed to replicate Firebase Realtime Database functionality using MongoDB's change streams and GraphQL SSE subscriptions. Built with Bun and GraphQL Yoga.
 
+## 📽 Demo
+
+[https://github.com/your-username/graphqlsse-mongodb/assets/video-graphql-server-sample.mp4  ](https://github.com/darylchill/graphql-sse-server/blob/main/video-graphql-server-sample.mp4)
+
+
 ## Features
 
 - Realtime updates using MongoDB change streams.
